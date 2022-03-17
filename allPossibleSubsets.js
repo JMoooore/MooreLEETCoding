@@ -23,6 +23,7 @@
 	generatePowerset([], 0);
 
 	function generatePowerset(path, index) {
+        console.log(powerset)
         console.log(`path:${path} index:${index}`)
 		powerset.push(path);
 		for (let i = index; i < nums.length; i++) {
